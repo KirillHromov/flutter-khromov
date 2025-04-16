@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:khromov/features/feed/presentation/feed_screen.dart';
 import 'package:khromov/features/home/presentation/home_screen.dart';
+import 'package:khromov/features/scannr/scannr_scrn.dart';
 import 'package:khromov/features/services/presentation/services_screen.dart';
 import 'package:khromov/features/settings/settings_screen.dart';
 
@@ -15,7 +16,7 @@ class _NavigationWrapperState extends State<NavigationWrapper> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = [
-    const HomeScreen(),
+    const ScannrScrn(),
     const FeedScreen(),
     // const ServicesScreen(),
     const SettingsScreen(),
